@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Photo Editor</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/stickyfooter.css">
+
+</head>
+
+<body>
+
+
+    <style>
+        .hello-msg {
+            font-size: 18px;
+            color: #fff;
+            margin-right: 20px;
+        }
+    </style>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="/"><img src="/static/images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/eula/">EULA</a></li>
+                            <li><a class="dropdown-item" href="/tc/">Terms & Conditions</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://docs.google.com/forms/d/1oiJ5zWVSDZVQj_deGu6swC-VLVJn4qvOU2oR2N62iF4/edit">Contact Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://localhost:4200/">Editor</a>
+                    </li>
+                </ul>
+            </div>
+
+            <span class="hello-msg">Hello, AnonymousUser</span>
+            <a class="btn btn-block btn-primary me-2" href="/logout/">Logout</a>
+
+            <!--  -->
+        </div>
+    </nav>
+
+
+
+    <div class="container-fluid">
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-2"></div>
+            <div class="col-md-auto">
+                <h1 class="pt-5">Photo Enviosity</h1>
+                <h5 class="pt-2">Try out Photo Editor today!</h5>
+                <a class="btn btn-outline-secondary mt-2" href="http://127.0.0.1:5500/">Click here to start</a>
+            </div>
+            <div class="col col-lg-2"></div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer class="ct-footer text-center-sm text-center-xs">
+        <div class="container">
+            <div class="row ct-u-paddingBottom40">
+                <div class="col-md-4 col-sm-6">
+                    <div class="ct-footer-header">
+                        About Us
+                    </div>
+                    <ul class="ct-footer-list list-unstyled">
+                        <li>
+                            <a href="/eula/">Eula</a>
+                        </li>
+                        <li>
+                            <a href="/tc/">Terms & Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="ct-footer-header">
+                        Support
+                    </div>
+                    <ul class="ct-footer-list list-unstyled">
+                        <li>
+                            <a href="https://docs.google.com/forms/d/1oiJ5zWVSDZVQj_deGu6swC-VLVJn4qvOU2oR2N62iF4/edit">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="ct-post_footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 text-center ct-u-paddingTop10">
+                        <p>
+                            © 2020 Enviosity. All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+</script>
+<script>
+    $(function() {
+        console.log(`Started`);
+    })
+</script>
+
+</html>
